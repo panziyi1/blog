@@ -2,7 +2,7 @@ docs_list_title: Techniques
 docs:
 
 - title: PyPI
-  url: pypi.html
+  url: pypi.md
 
 - title: Conda
-  url: conda.html
+  url: conda.md
