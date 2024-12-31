@@ -4,7 +4,8 @@
 ## Make a software package distribution
 {% assign doclist = site.data.mainpage.docs | sort: 'title'  %}
 {% for item in doclist %}
-[{{item.title}}]( {% link {{item.url}} %} )
+{% assign url = {{item.url}} %}
+[{{item.title}}]( {% link url %} )
 {% endfor %}
 
 # About
