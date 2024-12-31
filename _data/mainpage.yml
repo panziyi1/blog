@@ -1,0 +1,8 @@
+docs_list_title: Techniques
+docs:
+
+- title: PyPI
+  url: pypi.md
+
+- title: Conda
+  url: conda.md

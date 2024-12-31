@@ -1,10 +1,9 @@
-# Avenue to whatever
-
-A place to record. 
+# All about Cinema-prompt
 
 # How to
 ## Make a software package distribution
-1. [Conda package]()
+{% assign doclist = site.data.samplelist.docs | sort: 'title'  %}
+[{% for item in doclist %} {{item.title}}]( {{item.url}} )
 
 
 # About
