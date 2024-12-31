@@ -4,7 +4,7 @@
 ## Make a software package distribution
 {% assign doclist = site.data.mainpage.docs | sort: 'title'  %}
 {% for item in doclist %}
-{% link {{item.url}} %}
+[{{item.title}}]({% link conda.md %})
 {% endfor %}
 
 # About
