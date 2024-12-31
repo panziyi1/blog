@@ -5,7 +5,7 @@
 {% assign doclist = site.data.mainpage.docs | sort: 'title'  %}
 {% for item in doclist %}
 {% assign url = {{item.url}} %}
-[{{item.title}}]( {% link url %} )
+[{{item.title}}]( {% link {{url}} %} )
 {% endfor %}
 
 # About
